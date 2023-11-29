@@ -1,0 +1,35 @@
+1- First of all, install git if you don't have it yet, and create a GitHub account. ( You can refer to the lesson "Install Git and Create GitHub Account" in the prework. Follow the guidelines given there. Additionally, you can use these resources: Install git, Version control with git)
+answer_for_question_1 Done
+
+2- Create a new repository in the GitHub. Name it Iron+ your name. Example: if your name is Alvaro, you will name the repo IronAlvaro.
+answer_for_question_2 IronNatalia - Done
+
+3- Clone that repo to your computer.
+answer_for_question_3 git clone https://github.com/Natalia-Rodrigo/IronNatalia.git
+
+4- Create a file in that folder. Name it about.txt and add a fun fact about yourself. (You can use the command line: touch nameOfTheFile.txt).
+answer_for_question_4 touch about.txt, then echo "fun fact" > about.txt
+
+5- Add the file you just created to the git.
+answer_for_question_5 git add about.txt
+
+6- Commit the changes.
+answer_for_question_6 git commit -m "Added file about.txt with fun fact"
+
+7- Push the changes to the GitHub and check your repository to make sure everything is there.
+answer_for_question_7 git push -u origin main 
+
+1 - Fork your classmate's repository. - Done
+2- Clone the repository, so that you have it locally and can make changes. as git clone https://github.com/Natalia-Rodrigo/IronSandra.git
+
+3 - Create a new branch named classmate. as git switch -c ‘classmate’
+
+4- Create a new file with your name (ex. maya.txt) and finish the following sentence I enrolled Ironhack's Data Analytics bootcamp because.... When you are done, save the changes. as touch 'natalia.txt'
+
+5- echo "message" > natalia.txt
+
+6- Commit and push the changes. Now, all the changes should be on your GitHub, inside the forked repository. as git commit -m "commit message" and git push -u origin classmate
+
+7- Create a pull request to make changes appear in the original repository. - Done
+
+8- Merge the branch your classmate created. Now everyone's repos should have the original file (about.txt) as well as the new one with your classmate's name. as git merge ‘classmate’
